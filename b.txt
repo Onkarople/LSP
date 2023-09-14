@@ -1,0 +1,19 @@
+from . import core,task
+import logging
+
+
+@task(key="greet")
+class demo(core.JOTTask):
+    SHORT_DESC = "just print hello world"
+    KEY = "greet"
+
+
+    OPTS = {
+        "name": (str, False, None, None, "user name"),
+        "lan": (str, False, None, None, "language of user")
+    }
+
+    def run(self,*args):
+        self.console("hello world")
+
+

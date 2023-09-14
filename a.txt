@@ -1,0 +1,17 @@
+
+https://dhananjay.dhole:v5pxdgwe6pv55rb5exi7jwgevzldkg7ajkvgeyz5snjtqakc4o5q@dev.azure.com/WengerNPD/NewHorizon/_git/axonet-jacktrip
+
+https://dhananjay.dhole:v5pxdgwe6pv55rb5exi7jwgevzldkg7ajkvgeyz5snjtqakc4o5q@dev.azure.com/WengerNPD/NewHorizon/_git/axonet-jacktrip
+
+
+https://dhananjay.dhole:v5pxdgwe6pv55rb5exi7jwgevzldkg7ajkvgeyz5snjtqakc4o5q@dev.azure.com/WengerNPD/NewHorizon/_git/axonet-jacktrip
+
+
+python3 http.server 55555 -d <path_to_clone/jot/bin/web>
+ 
+
+ 
+
+ 
+
+ 
