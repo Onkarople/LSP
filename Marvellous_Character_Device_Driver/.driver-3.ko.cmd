@@ -1,0 +1,1 @@
+cmd_/mnt/LSP/Marvellous_Character_Device_Driver/driver-3.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /mnt/LSP/Marvellous_Character_Device_Driver/driver-3.ko /mnt/LSP/Marvellous_Character_Device_Driver/driver-3.o /mnt/LSP/Marvellous_Character_Device_Driver/driver-3.mod.o;  true

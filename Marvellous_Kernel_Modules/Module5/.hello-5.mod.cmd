@@ -1,0 +1,1 @@
+cmd_/mnt/LSP/Marvellous_Kernel_Modules/Module5/hello-5.mod := printf '%s\n'   hello-5.o | awk '!x[$$0]++ { print("/mnt/LSP/Marvellous_Kernel_Modules/Module5/"$$0) }' > /mnt/LSP/Marvellous_Kernel_Modules/Module5/hello-5.mod

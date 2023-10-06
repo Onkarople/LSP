@@ -1,0 +1,1 @@
+cmd_/mnt/LSP/Marvellous_Character_Device_Driver/Module.symvers :=  scripts/mod/modpost -m -a     -o /mnt/LSP/Marvellous_Character_Device_Driver/Module.symvers -T /mnt/LSP/Marvellous_Character_Device_Driver/modules.order -i Module.symvers -e 

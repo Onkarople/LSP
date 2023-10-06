@@ -1,0 +1,1 @@
+cmd_/mnt/LSP/Marvellous_Kernel_Modules/Module5/Module.symvers :=  scripts/mod/modpost -m -a     -o /mnt/LSP/Marvellous_Kernel_Modules/Module5/Module.symvers -T /mnt/LSP/Marvellous_Kernel_Modules/Module5/modules.order -i Module.symvers -e 

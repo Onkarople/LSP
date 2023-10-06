@@ -1,41 +1,37 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<unistd.h>
 #include<fcntl.h>
 
 #pragma pack(1)
-
 struct Student
 {
-    int roolno;
-    char sname[20];
+    int Rollno;
+    char Sname[20];
     float Marks;
-    int age;
+    int Age;
 };
 
-
-int main(int argc,char* argv[])
+int main(int argc, char *argv[])
 {
-   int fd=0; 
-   char Fname[20];
-   struct Student sobj;
+    struct Student sobj;
+    char Fname[20];
+    int fd = 0;
 
-   sobj.roolno=11;
-   sobj.Marks=89.00;
-   sobj.age=23;
-   strcpy(sobj.sname,"om");
+    printf("Enter the file name : \n");
+    scanf("%s",Fname);
 
+    fd = open(Fname,O_RDONLY);
 
-   printf("Enter file name\n");
-   scanf("%s",Fname);
+    read(fd,&sobj,sizeof(sobj));
 
-   fd=creat(Fname,0777);
+    printf("Roll number : %d : \n",sobj.Rollno);
+    printf("Name : %s : \n",sobj.Sname);
+    printf("Marks : %f : \n",sobj.Marks);
+    printf("Age : %d : \n",sobj.Age);
 
-   write(fd,&sobj,sizeof(sobj));
-   
-
-
-
+    close(fd);
 
     return 0;
 }
